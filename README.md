@@ -9,7 +9,7 @@ was server based. This had a lot of implications for how I was doing other thing
 a lot of weaknesses in my previous project and gave me an opportunity to improve them.
 
 This new technology while a little difficult at first for me did not hurt the development experience now that I know it. I feel as if 
-I can make much more powerful websites now with dynamic content. 
+I can make much more powerful websites now with dynamic content. I think as I started doing it more it became much easier.
 
 AI notice: I utilized chatgpt, gemini to give me examples for various things such as getting started with a react app, displaying dynamic data 
 and how/why it works with react. I asked for some help with debugging, it pointed out some common pitfalls I 

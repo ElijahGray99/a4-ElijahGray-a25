@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 app.use(express.static(path.join(__dirname, 'my-react-app/dist')));
 app.use(express.json());
 dotenv.config();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 
 const logger = (req, res, next) => {
@@ -413,6 +413,6 @@ function compute_stress_score(homework_date, homework_time) {
 //    console.log("Server + Vite running at http://localhost:3000")
 //);
 
-app.listen(PORT, () => {
-    console.log("Server listening on port: " + PORT);
+app.listen(port, () => {
+    console.log("Server listening on port: " + port);
 });
